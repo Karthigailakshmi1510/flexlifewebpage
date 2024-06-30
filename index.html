@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web design</title>
+        <link rel="stylesheet" href="style.css" /> 
+        <style>
+            body{
+                background-image: url('images/istockphoto-1151551500-640x640.jpg');
+                background-repeat: no-repeat ;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+       
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="images/fl logo2.png" class="logo">
+                
+                <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+                <button class="btn"><b>Contact</b></button>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>  
+            
+            <div class="content">
+                <h1>Get Fit.Stay Motivated.</h1> 
+                <p>From personalized workouts to real-time progress tracking.we<br>
+                provide the tools and support you need to achieve your fitness<br>
+            goals and unlock your full atheletic potentials.</p> 
+            <form>
+                <button type="submit" class="btn1"><b>Book a Free trial</b></button>
+            </form> 
+            </div>  
+                
+        </div>
+        <div class="img-gallery">
+            
+                <img src="images/image-1.jpeg"  alt="img1" class="img1" >  
+            
+             
+                <img src="images/image-2.jpg" alt="img2" class="img2">
+            
+             
+                <img src="images/image-3.jpg" alt="img3" class="img3"> 
+            
+            
+                <img src="images/image-4.jpg"  alt="img4" class="img4">
+            
+            
+         </div>
+         <script>
+            document.querySelector('.hamburger').addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.toggle('nav-active');
+            });
+        </script>
+        
+         
+     </body>
+    
+    
+</html>
